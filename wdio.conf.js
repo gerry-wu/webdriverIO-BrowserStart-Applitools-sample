@@ -3,11 +3,7 @@ var accountInfo = require("./accountInfo");
 var user = accountInfo.user;
 var key = accountInfo.key;
 var applitoolsKey = accountInfo.applitoolsKey;
-=======
-var user = ""
-var key = ""
-var applitoolsKey = ""
->>>>>>> 1797d4fe21f14a629df320b083dc6c935a982e49
+
 
 exports.config = {
 
