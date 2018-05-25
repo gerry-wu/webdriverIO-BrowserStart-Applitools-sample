@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var accountInfo = require("./accountInfo");
 
 var user = accountInfo.user;
