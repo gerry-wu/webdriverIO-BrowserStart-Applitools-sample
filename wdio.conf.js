@@ -1,6 +1,6 @@
-var user = "gerry35"
-var key = "9aXjGCgxH8ZcfdMhbKWq"
-var applitoolsKey = "SXhtohYtbRnE109M0hwjs4vqRFODfy110ixSmUnpxkTMHSg110"
+var user = ""
+var key = ""
+var applitoolsKey = ""
 
 exports.config = {
 
