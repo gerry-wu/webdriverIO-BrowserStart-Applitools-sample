@@ -1,6 +1,6 @@
-var user = "gerry35"
-var key = "9aXjGCgxH8ZcfdMhbKWq"
-var applitoolsKey = "SXhtohYtbRnE109M0hwjs4vqRFODfy110ixSmUnpxkTMHSg110"
+var user = "jackyyu3"
+var key = "bMccn2nnkApyrZqiQv3s"
+var applitoolsKey = "NhBEEo1frQRbYyUGLZmeazh2s107RAkBMmt6n6ylcsw108w110"
 
 exports.config = {
 
@@ -75,7 +75,8 @@ exports.config = {
         {
             os: 'Windows',
             os_version: '10',
-            browser: 'chrome',
+            browser:'chrome',
+            browserName: 'chrome',
             // browser_version: '16.0',
             resolution: '1024x768',
             'browserstack.debug': 'true',
@@ -103,7 +104,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://applitools.com',
+    baseUrl: 'http://google.ca',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
