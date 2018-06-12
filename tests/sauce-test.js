@@ -7,7 +7,7 @@ describe('Mocha Sauce Example', function () {
 
     console.log('RUNNING SAUCE TEST');
     browser.EyesOpen("Home Page");
-    browser.url('http://localhost:9000');
+    browser.url('http://localhost:9000/');
     console.log(browser.getUrl());
     browser.pause(5000);
     browser.EyesCheckWindow("Home");
@@ -23,9 +23,15 @@ describe('Mocha Sauce Example', function () {
         });
         // return the results
     })
-    console.log(result.value);
+//    console.log(result.value);
+
     // assert there are no violations
     assert.equal(result.value.violations.length, 0, 'Expected no a11y violations');
+    if(result.value.violations.length > 0){
+            console.log(result.value.violations);
+            JSON.stringify(result.value.violations);
+    }
+
     // parse through the results and convert them to chai format
 
 

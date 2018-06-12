@@ -54,5 +54,10 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 
 ##### [Accessibility Axe-core](https://www.youtube.com/watch?v=6gwtqYCxNwQ&feature=youtu.be)
 
+##### [generate report](https://github.com/dequelabs/axe-core/blob/develop/doc/examples/html-handlebars.md)
+
+##### [Accessibility Axe-report](https://www.npmjs.com/package/axe-reports)
+
+
 * A great resource to search for issues not explicitly covered by documentation
 
