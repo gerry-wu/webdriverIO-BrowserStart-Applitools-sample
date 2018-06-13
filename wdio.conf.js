@@ -78,8 +78,7 @@ exports.config = {
         {
             os: 'Windows',
             os_version: '10',
-            browser:'chrome',
-            browserName: 'chrome',
+            browser: 'chrome',
             // browser_version: '16.0',
             resolution: '1024x768',
             'browserstack.debug': 'true',
@@ -107,7 +106,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten url command calls. If your url parameter starts
     // with "/", then the base url gets prepended.
-    baseUrl: 'http://google.ca',
+    baseUrl: 'http://applitools.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

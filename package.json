@@ -7,7 +7,6 @@
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "dependencies": {
-    "axe-webdriverjs": "^2.0.0",
     "chai": "*",
     "eyes.selenium": "*",
     "mocha": "*",
@@ -18,7 +17,6 @@
     "webdriverio": "*"
   },
   "devDependencies": {
-    "@applitools/eyes.webdriverio": "^1.1.0",
-    "axe-core": "^3.0.3"
+    "@applitools/eyes.webdriverio": "^1.1.0"
   }
 }
