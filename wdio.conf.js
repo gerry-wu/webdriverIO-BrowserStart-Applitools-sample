@@ -1,6 +1,9 @@
-var user = "jackyyu3"
-var key = "bMccn2nnkApyrZqiQv3s"
-var applitoolsKey = "NhBEEo1frQRbYyUGLZmeazh2s107RAkBMmt6n6ylcsw108w110"
+var accountInfo = require("./accountInfo");
+
+var user = accountInfo.user;
+var key = accountInfo.key;
+var applitoolsKey = accountInfo.applitoolsKey;
+
 
 exports.config = {
 
